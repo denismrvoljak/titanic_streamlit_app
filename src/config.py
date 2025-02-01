@@ -24,3 +24,9 @@ FEATURE_COLUMNS = [
     "economic_status",
     "age_group",
 ]
+
+TICKET_OPTIONS = {
+    1: [("Budget", 100), ("Standard", 150), ("Premium", 250), ("Luxury", 500)],
+    2: [("Budget", 50), ("Standard", 100), ("Premium", 180), ("Luxury", 300)],
+    3: [("Budget", 20), ("Standard", 50), ("Premium", 100), ("Luxury", 200)],
+}
